@@ -8,8 +8,9 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  constructor() { 
-    private route: ActivatedRoute,
+  constructor( private route: ActivatedRoute,
+  }) { 
+    
   }
 
   ngOnInit() {
